@@ -28,10 +28,29 @@
   color: #61dafb;
 }
 
+body {
+  text-align: center;
+}
+
+.main-card button {
+  position: relative;
+  left: -45px;
+  bottom: 15px;
+}
+
+.favorites {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

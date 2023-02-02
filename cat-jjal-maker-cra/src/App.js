@@ -51,7 +51,7 @@ const Form = ({ updateMainCat }) => {
       <input type="text" name="name" placeholder="영어 대사를 입력해주세요"
         value={value}
         onChange={handleInputChange} />
-      <button type="submit">생성</button>
+      <button type="submit">생성2</button>
       <p style={{ color: 'red' }}>{errorMessage}</p>
     </form>
   )
